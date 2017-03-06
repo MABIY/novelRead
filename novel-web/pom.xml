@@ -25,13 +25,9 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
-
-        <!--servlet  3   提供处理Http 服务 拦截请求 给spring 来处理（front  Controller）-->
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
 
     </dependencies>
